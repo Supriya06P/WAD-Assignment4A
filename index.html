@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Site with Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div data-role="page" id="home">
+    <div data-role="header" class="custom-header">
+      <h1>Welcome Page</h1>
+    </div>
+
+    <div data-role="navbar" class="custom-navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#formpage">Form Page</a></li>
+      </ul>
+    </div>
+
+    <div data-role="content">
+      <p>This is a mobile-optimized homepage with a navigation link to a form page.</p>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <h4>Home Site @ 2025</h4>
+    </div>
+  </div>
+
+  <div data-role="page" id="formpage">
+    <div data-role="header" class="custom-header">
+      <h1>Form Page</h1>
+    </div>
+
+    <div data-role="content">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+      <a href="#home" data-role="button" data-theme="a">Back to Home</a>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <h4>Form Page @ 2025</h4>
+    </div>
+  </div>
+
+</body>
+</html>

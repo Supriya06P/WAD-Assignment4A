@@ -1,0 +1,23 @@
+.custom-header {
+                    background-color: #007bff;
+                    color: white;
+                    font-weight: bold;
+                  }
+                  
+                  .link-header {
+                    text-align: center;
+                    background-color: #f0f0f0;
+                    padding: 1em;
+                  }
+                  
+                  .ui-navbar {
+                    background-color: #e0e0e0;
+                    border-top: 2px solid #007bff;
+                  }
+                  
+                  .custom-navbar .ui-btn {
+                    font-size: 1.6em;
+                    font-weight: bold;
+                    padding: 1em;
+                  }
+                  
